@@ -85,35 +85,6 @@ Setup Instructions
 -Create a MySQL database named food_delivery.
 -Import the SQL script database.sql (if available) or create tables manually:
 
-sql code
---------------
-
-CREATE TABLE users (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    username VARCHAR(50),
-    email VARCHAR(50),
-    password VARCHAR(50),
-    role VARCHAR(20)
-);
-
-CREATE TABLE food_items (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(50),
-    description VARCHAR(200),
-    price DOUBLE
-);
-
-CREATE TABLE orders (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    user_id INT,
-    food_id INT,
-    quantity INT,
-    total_price DOUBLE,
-    status VARCHAR(50),
-    order_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-
-
 Configure Database Connection:
 ----------------------------------------
 
@@ -166,6 +137,6 @@ Add user reviews and ratings for food items.
 Author
 Disha Saha
 
-Email: [your-email@example.com]
+Email: [hellodishasaha@gmailcom]
 
-GitHub: [your-github-link]
+GitHub: []
